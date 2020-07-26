@@ -11,7 +11,6 @@ class Divisions{
     display(){
       var pos =this.body.position;
       rectMode(CENTER);
-      //fill("#00FF00");
       fill("white");
       rect(pos.x, pos.y, this.w,this.h);
     }
